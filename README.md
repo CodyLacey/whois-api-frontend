@@ -75,7 +75,7 @@ To get a local copy up and running follow these simple steps.
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/codylacey/truffle-cooking.git
+   git clone https://github.com/codylacey/whois-api-frontend.git
    ```
 2. Install NPM packages
    ```sh
