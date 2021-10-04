@@ -1,0 +1,7 @@
+services:
+  frontend:
+    build:
+      dockerfile: ./Dockerfile
+    image: "codylacey/whois-front"
+    ports:
+      - "3000:3030"
