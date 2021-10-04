@@ -28,7 +28,7 @@ const Info = () => {
           <Info />
         <div className='domainResults'>
             <h2>{domainUrl.toLowerCase()}</h2>
-            <a href={'https://' + domainUrl} target='_blank' rel='noreferrer' >Visit Site</a>
+            <a href={'https://' + domainUrl} target='_blank' rel='noreferrer'>Visit Site</a>
             
             <table className='domainInfo'>
                 <h3>Domain Info</h3>
@@ -42,10 +42,10 @@ const Info = () => {
                     <td>{domainInfo.WhoisRecord.expiresDate}</td>
                 </tr>
 
-                <tr>
+                {/* <tr>
                     <th>Name Server</th>
-                    <td>{domainInfo.WhoisRecord.nameServers.hostNames[0]}</td>
-                </tr>
+                    <td>{domainInfo.WhoisRecord.registryData.nameServers.hostNames[0]}</td>
+                </tr> */}
 
                 <tr>
                     <th>Created Date</th>
@@ -100,7 +100,7 @@ const Info = () => {
                 </tr>
             </table>
 
-            <table className='contactRegistrant'>
+            {/* <table className='contactRegistrant'>
                 <h4>Contact - Registrant</h4>
                 <tr>
                     <th>Name</th>
@@ -261,7 +261,7 @@ const Info = () => {
                 </tr>
 
                 
-            </table>
+            </table> */}
 
         </div>
         </div>
@@ -270,7 +270,7 @@ const Info = () => {
 
     return (
         <div className='form'>
-            <input value={domainUrl} id='domainUrlId' onChange={e => setDomainUrl(e.target.value)} placeholder='Search for any domain' required></input>
+            <input value={domainUrl} id='domainUrlId' onChange={e => setDomainUrl(e.target.value)} placeholder='Search for any domain' autocomplete='off' required></input>
             <button className='search' onClick={() => getUrl(domainUrl)}>Search</button>
                 
         </div>
