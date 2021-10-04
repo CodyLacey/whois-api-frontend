@@ -16,7 +16,7 @@ const Info = () => {
             .then(res => res.json())
             .then(response => setDomainInfo(response))
         }else {
-            alert('Oops please add a TLD to your domain!')
+            alert('Oops please add a TLD to your search!')
             console.log(x);
         }
         
