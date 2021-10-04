@@ -112,7 +112,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@codylaceydev](https://twitter.com/codylaceydev) - email cody@codylacey.com
+[@codylaceydev](https://twitter.com/codylaceydev) - email cody@codylacey.com
 
 Project Link: [https://github.com/codylacey/whois-api-frontend](https://github.com/codylacey/whois-api-frontend)
 
